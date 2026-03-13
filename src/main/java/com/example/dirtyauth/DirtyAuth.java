@@ -12,7 +12,7 @@ import java.util.*;
   Ne jamais utiliser en production.
 */
 
-public class SonarHorrorAuth {
+public class DirtyAuth {
 
     // Hardcoded secrets
     private static final String API_KEY = "SUPER_SECRET_API_KEY_123456";
@@ -29,7 +29,7 @@ public class SonarHorrorAuth {
 
     // Bad entry point style
     public static void main(String[] args) {
-        SonarHorrorAuth a = new SonarHorrorAuth();
+        DirtyAuth a = new DirtyAuth();
 
         // Swallowing exceptions and ignoring return values
         try {
