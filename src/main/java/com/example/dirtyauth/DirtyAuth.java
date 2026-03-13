@@ -1,4 +1,4 @@
-package com.example.sonarplayground;
+package com.example.dirtyauth;
 
 import java.io.*;
 import java.net.HttpURLConnection;
